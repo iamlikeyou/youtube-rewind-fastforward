@@ -1,4 +1,18 @@
-var ytrff = {
+// ==UserScript==
+// @name         Youtube Rewind & Fast Forward
+// @namespace    https://github.com/iamlikeyou/youtube-rewind-fastforward
+// @version      0.1
+// @description  Adds 2 buttons to your video player to rewind and fast forward the video.
+// @author       iamlikeyou
+// @match        https://www.youtube.com/watch?v=*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+var yff = {
     rewindTime: 3,
     fastforwardTime: 3,
     positionBefore: "span.ytp-volume-area",
@@ -57,4 +71,6 @@ var ytrff = {
         }, 50);
     }
 }
-ytrff.start();
+yff.start();
+
+})();
