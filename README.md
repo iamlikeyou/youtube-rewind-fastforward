@@ -1,4 +1,4 @@
-# Youtube Rewind & Fast Forward Buttons
+# Youtube Rewind & Fast Forward
 
 Place into Tampermonkey or Violentmonkey etc, this will add 2 buttons to your video player to rewind and fast forward the video.
 
